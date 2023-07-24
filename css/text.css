@@ -1,0 +1,119 @@
+.textcenter h1{
+    text-align: center;
+    line-height: 4rem;
+    margin-top: 0px
+}
+@media screen and (min-width: 786px){
+    .textcenter h1{font-size: 2rem;}
+}
+
+@media screen and (max-width: 768px){
+    .textcenter h1{font-size: 1.6rem;}
+}
+
+.textcenter h5 {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textcenter{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@media screen and (min-width: 1440px){
+    .textcenter{width: 50%;}
+}
+
+@media screen and (max-width: 1440px){
+    .textcenter{width: 50%;}
+}
+
+@media screen and (max-width: 768px){
+    .textcenter{width: 75%}
+}
+
+@media screen and (max-width: 425px){
+    .textcenter{width: 80%}
+}
+
+@media screen and (max-width: 375px){
+    .textcenter{width: 95%}
+}
+
+.textcenter p{
+    text-indent:2rem;
+    line-height: 1.8rem;
+}
+
+.textcenter img , .textcenter video{
+    display: table;
+    margin: 0 auto;
+    border-style: double;
+}
+
+.textcenter .nostyle{
+    margin-top: 5px;
+    border-style: none;
+}
+
+@media screen and (min-width: 786px){
+    .textcenter img , .textcenter video{width: 60%;}
+}
+
+@media screen and (max-width: 768px){
+    .textcenter img , .textcenter video{width: 85%;}
+}
+
+.textcenter .stitle{
+    margin-top: 1.5rem;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 3.5rem;
+}
+
+.textcenter .recommendation{
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+.textcenter .price{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.talk{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@media screen and (min-width: 1440px){
+    .talk{width: 50%;}
+}
+
+@media screen and (max-width: 1440px){
+    .talk{width: 50%;}
+}
+
+@media screen and (max-width: 768px){
+    .talk{width: 75%}
+}
+
+@media screen and (max-width: 425px){
+    .talk{width: 80%}
+}
+
+@media screen and (max-width: 375px){
+    .talk{width: 95%}
+}
+
+.linkdiv{
+    display: block;
+    text-decoration:none;
+}
