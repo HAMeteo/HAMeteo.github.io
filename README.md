@@ -1,2 +1,2 @@
 # HAMeteo
-The meteo website of HAM.
+This is a meteo website of HAM.
