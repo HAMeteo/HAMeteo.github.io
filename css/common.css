@@ -28,7 +28,6 @@ header{
 	width: 100%;
 	background-color: #e3f2fd;
 	z-index: 99;
-	display:flex;
     align-items:center;
 }
 
