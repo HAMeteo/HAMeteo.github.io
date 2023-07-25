@@ -8,16 +8,16 @@
 
 .welcome{
     height: auto;
-    background-color: rgb(238,238,238);
+    background-color: rgb(245, 245, 245);
 }
 
 .welcome h2{
-    padding: 20px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
     color: rgb(130,130,130);
 }
 
-.welcome h3{
-    padding: 5px 0px 10px 0px;
+.welcome h4{
+    padding: 0px 0px 15px 0px;
     color: rgb(100,100,100);
 }
 

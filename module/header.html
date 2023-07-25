@@ -82,9 +82,9 @@
 <div class="allheader">
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div>
-                <a href="/">
-                    <img class="logo" alt="logo" src="/images/UI/logo-big.png" />
+            <div class="logo">
+                <a class="logo" href="/">
+                    <span alt="logo">火腿气象台 | HAMeteo</span>
                 </a>
             </div>
             <div class="text-nowrap">
@@ -128,9 +128,9 @@
                 </div>
             </div>
         </nav>
+        <div class="stereoscopic-line"></div>
     </header>
     <!--窄屏下拉菜单-->
-    <div class="stereoscopic-line"></div>
     <div class="collapse pull-down-menu" id="pull-down-menu">
         <ul class="navbar-nav">
             <li><a href="/">首页</a></li>
@@ -246,7 +246,7 @@
         var $btnSubmit = $siteSearchForm.find('.btn')
         var updateQuery = function (e) {
             var query = $inputQuery.val()
-            $realQuery.val(query + ' site:hkems-stmo.top ')
+            $realQuery.val(query + ' site:HAMeteo.top ')
         }
         $inputQuery.on('keyup', updateQuery)
         $btnSubmit.on('click', updateQuery)
