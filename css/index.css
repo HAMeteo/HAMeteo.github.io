@@ -1,29 +1,15 @@
-.Slide-infor{
-    margin-top:5px;
-}
-
-.maininfor{
-    text-align: center;
-}
-
 .welcome{
-    height: auto;
-    background-color: rgb(245, 245, 245);
+    background-color: #F5F5F5
 }
 
 .welcome h2{
     padding: 15px 0px 0px 0px;
-    color: rgb(130,130,130);
+    color: #828282
 }
 
-.welcome h4{
+.welcome h5{
     padding: 0px 0px 15px 0px;
-    color: rgb(100,100,100);
-}
-
-
-.disappear{
-	display:none;
+    color: #646464
 }
 
 #content{

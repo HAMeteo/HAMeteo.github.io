@@ -15,49 +15,47 @@ p{
 #click{
   font-size: 15px;
   user-select:none;
-  z-index: 99999
+  z-index: 99
 }
 
 header{
-  width: 100%;
-  background-color: #e3f2fd;
-  z-index: 999
+  z-index: 99;
+  background-color: #e3f2fd
 }
 
 .header{
 	width: 100%;
 	background-color: #e3f2fd;
 	z-index: 99;
-    align-items:center;
+  display:flex
 }
 
 .logo{
 	text-decoration: none;
 	color: #55a8f1;
 	font-weight: bolder;
+  align-self: center 
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 385px){
 	.logo{
-		font-size: x-large;
-		padding: 5px 5px 5px 5px;
+		font-size: 24px;
+		padding: 8px 5px 8px 10px
 	}
 	.header{
-		height: 64px;
-		width: 100%;
+		height: 68px;
+		width: 100%
 	}
 }
 
-/*padding 上 右 下 左*/
-
-@media screen and (min-width: 768px){
+@media screen and (max-width: 385px){
 	.logo{
-		font-size: x-large;
-		padding: 8px 5px 8px 10px;
+		font-size: 18px;
+		padding: 5px 5px 5px 5px
 	}
 	.header{
-		height: 70px;
-		width: 100%;
+		height: 53px;
+		width: 100%
 	}
 }
 
@@ -66,25 +64,29 @@ noscript{
   justify-content:center
 }
 
-button{
+.navbar-toggler{
     border-style: none
 }
 
 .bi-list{
-	font-size: larger;
+	font-size: larger
 }
 
 .bi-chevron-compact-up{
-	font-size: larger;
+	font-size: larger
 }
 
 .center{
   text-align: center
 }
 
+.disappear{
+	display:none;
+}
+
 .allheader{
   width: 100%;
-  z-index: 999;
+  z-index: 99;
   position:fixed
 }
 
@@ -96,14 +98,14 @@ button{
   top: 0px;
   height: 100%;
   background-color: #cccccc;
-  z-index: 100
+  z-index: 99
 }
 /* 弹出框主体 */
 .popup {
   background-color: #ffffff;
   height: 430px;
   border-radius: 5px;
-  margin: 100px auto;
+  margin: 130px auto;
   text-align: center
 }
 /* 弹出框的标题 */
@@ -130,30 +132,27 @@ button{
 }
 /* 弹出框的按钮栏 */
 .popup_btn {
+  cursor: pointer;
   padding-top: 30px
 }
 /* 弹出框的按钮 */
 .popup_btn button.ds {
-  color: #778899;
   width: 40%;
   height: 40px;
-  cursor: pointer;
   border: solid 1px #cccccc;
   border-radius: 5px;
   margin: 5px 10px;
   color: #ffffff;
-  background-color: rgb(150,150,150)
+  background-color: #969696
 }
 .popup_btn button.ag {
-    color: #778899;
-    width: 40%;
-    height: 40px;
-    cursor: pointer;
-    border: solid 1px #cccccc;
-    border-radius: 5px;
-    margin: 5px 10px;
-    color: #ffffff;
-    background-color: #337ab7
+  width: 40%;
+  height: 40px;
+  border: solid 1px #cccccc;
+  border-radius: 5px;
+  margin: 5px 10px;
+  color: #ffffff;
+  background-color: #337ab7
   }
 /*弹窗部分结束*/
 
@@ -172,19 +171,19 @@ button{
 }
 
 .nav-link:hover{
-    border-bottom: 2px solid rgb(38, 38, 38);
+    border-bottom: 2px solid #262626;
     margin-bottom: -2px
 }
 
 .pull-down-menu{
-    background-color: rgb(242,242,242);
+    background-color: #F2F2F2;
     text-decoration: none;
 }
 
 .pull-down-menu a {
     display:block;
     font-size: 18px;
-    color: rgb(38, 38, 38);
+    color: #262626;
     text-decoration:none;
     margin-top:15px;
     margin-bottom:15px;
@@ -200,7 +199,7 @@ button{
 }
 
 .pullsearchdiv{
-  background-color: rgb(242,242,242)
+  background-color: #F2F2F2
 }
 
 .pullsearch{
@@ -219,7 +218,7 @@ button{
 
 footer{
   width: 100%;
-  background-color: rgb(242,242,242)
+  background-color: #F2F2F2
 }
 .back-top {
   text-align: center;
