@@ -125,11 +125,11 @@
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body pull-down-menu">
                                             <ul class="satellite-list">
-                                                <li><a href="/">NOAA 19</a></li>
+                                                <li><a href="/choose.php?NOAA-19">NOAA 19</a></li>
                                                 <div class="stereoscopic-line"></div>
-                                                <li><a href="/">NOAA 18</a></li>
+                                                <li><a href="/choose.php?NOAA-18">NOAA 18</a></li>
                                                 <div class="stereoscopic-line"></div>
-                                                <li><a href="/">NOAA 15</a></li>
+                                                <li><a href="/choose.php?NOAA-15">NOAA 15</a></li>
                                                 <div class="stereoscopic-line"></div>
                                             </ul>
                                         </div>
