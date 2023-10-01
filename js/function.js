@@ -1,70 +1,18 @@
-/*公共引用*/
 $(function () {
   $(".header").load("/module/header.html");
   $(".footer").load("/module/footer.html");
   $(".talk").load("/module/talk.html");
 });
-/*-公共引用-*/
 
-
-/*像素检测*/
 if (screen.width < 300)
   window.location.href = "/module/toonarrow.html";
-/*-像素检测-*/
 
+console.log("欢迎对本站进行F12调试，Bug反馈，优化建议等请联系我们：maqingshui@outlook.com")
 
-/*ie判断*/
-function isIE() {
-  if (!!window.ActiveXObject || 'ActiveXObject' in window || navigator.userAgent.indexOf("Edge") > -1) return true
-  else return false
-}
-//获取url上携带的参数
-function getURLData() {
-  var url = window.location.href
-  var theData = new Object()
-  if (url.indexOf('?') != -1) {
-    var _index = -1
-    if (url.indexOf('?') > url.indexOf('#/')) {
-      _index = url.length
-    } else {
-      _index = url.indexOf('#/')
-    }
-
-    var str = url.substring(url.indexOf('?') + 1, _index)
-    var strs = str.split('&')
-    for (var i = 0; i < strs.length; i++) {
-      theData[strs[i].split('=')[0]] = strs[i].split('=')[1]
-    }
-  }
-  return theData
-}
-//获取浏览器版本
-function getIEVersion() {
-  var system = {};
-  var ua = navigator.userAgent.toLowerCase();
-  var s;
-  return (s = ua.match(/rv:([\d.]+)\) like gecko/)) ? system.ie = s[1] :
-    (s = ua.match(/msie ([\d.]+)/)) ? system.ie = s[1] : 0;
-}
-// 判断ie版本，如果小于11则跳转到下载chrome页
-var IEVersion = getIEVersion()
-if (IEVersion && IEVersion < 10) {
-  var params = getURLData()
-  window.location.href = '/module/browser.html'
-}
-/*-ie判断-*/
-
-
-/*写入控制台*/
-console.log("欢迎对本站进行F12调试，Bug反馈，优化建议等请联系我们：HKEMS-STMO@outlook.com")
-/*-写入控制台-*/
-
-
-/*点击效果*/
 var a_idx = 0;
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
-        var a = new Array("富强","民主","文明","和谐","自由","平等","公正","法制","爱国","敬业·","诚信","友善");
+        var a = new Array("富强","民主","文明","和谐","自由","平等","公正","法制","爱国","敬业","诚信","友善");
         var $i = $("<span id='click'></span>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,
@@ -86,14 +34,5 @@ jQuery(document).ready(function($) {
         function() {
             $i.remove();
         });
-    });
-});
-/*-点击效果-*/
-
-    $(function() {
-    $(".img-responsive").click(function (){
-        debugger
-        var _this=$(this);
-        imgShow("#outerdiv","#innerdiv","#bigimg",_this);
     });
 });
