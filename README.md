@@ -1,7 +1,7 @@
 # 火腿气象台 | HAMeteo
 
-## This is a meteo website of HAM.<br>这是一个HAM的气象网站。<br> 
-
+This is a meteo website of HAM.<br> 
+这是一个HAM的气象网站。<br> 
 <br> 
 We use SDR or other RX RIG to reception the Signal of weather satellite and decode it into an image(Meteorological cloud map).<br> 
 In this website, we will share what image was we decode, and how to get started from scratch.<br> 
