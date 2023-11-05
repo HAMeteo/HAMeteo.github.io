@@ -1,0 +1,248 @@
+/* 页眉 */
+::selection {
+  color: #fff;
+  background: #66c1fa
+}
+
+h1{
+  margin-top: 40px
+}
+
+p{
+  font-size: 100%
+}
+
+#click{
+  font-size: 15px;
+  user-select:none;
+  z-index: 99
+}
+
+header{
+  z-index: 99;
+  background-color: #e3f2fd
+}
+
+.header{
+	width: 100%;
+	background-color: #e3f2fd;
+	z-index: 99;
+  display:flex
+}
+
+.logo{
+	text-decoration: none;
+	color: #55a8f1;
+	font-weight: bolder;
+  align-self: center 
+}
+
+@media screen and (min-width: 385px){
+	.logo{
+		font-size: 24px;
+		padding: 8px 5px 8px 10px
+	}
+	.header{
+		height: 68px;
+		width: 100%
+	}
+}
+
+@media screen and (max-width: 385px){
+	.logo{
+		font-size: 18px;
+		padding: 5px 5px 5px 5px
+	}
+	.header{
+		height: 53px;
+		width: 100%
+	}
+}
+
+noscript{
+  display:flex;
+  justify-content:center
+}
+
+.navbar-toggler{
+    border-style: none
+}
+
+.bi-list{
+	font-size: larger
+}
+
+.bi-chevron-compact-up{
+	font-size: larger
+}
+
+.center{
+  text-align: center
+}
+
+.disappear{
+	display:none;
+}
+
+.allheader{
+  width: 100%;
+  z-index: 99;
+  position:fixed
+}
+
+/*弹窗部分开始*/
+/* 遮罩层 */
+#overlay {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  background-color: #cccccc;
+  z-index: 99
+}
+/* 弹出框主体 */
+.popup {
+  background-color: #ffffff;
+  height: 430px;
+  border-radius: 5px;
+  margin: 130px auto;
+  text-align: center
+}
+/* 弹出框的标题 */
+.popup_title {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: solid 1px #cccccc
+}
+/* 弹出框的内容 */
+.popup_content {
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+  height: 200px;
+  line-height: 45px;
+  padding: 10px 20px;
+  text-indent:2em
+}
+.popup_line{
+  margin: 0 auto;
+  height: 20px;
+  width: 85%;
+  border-bottom: 1px solid #dbdbdb
+}
+/* 弹出框的按钮栏 */
+.popup_btn {
+  cursor: pointer;
+  padding-top: 30px
+}
+/* 弹出框的按钮 */
+.popup_btn button.ds {
+  width: 40%;
+  height: 40px;
+  border: solid 1px #cccccc;
+  border-radius: 5px;
+  margin: 5px 10px;
+  color: #ffffff;
+  background-color: #969696
+}
+.popup_btn button.ag {
+  width: 40%;
+  height: 40px;
+  border: solid 1px #cccccc;
+  border-radius: 5px;
+  margin: 5px 10px;
+  color: #ffffff;
+  background-color: #337ab7
+  }
+/*弹窗部分结束*/
+
+#wsearch{
+  margin-left: 10px
+}
+
+.pcsearch{
+  margin-left: 10px;
+  font-size: small
+}
+
+/*下拉菜单*/
+.packups{
+    border-style: none
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #262626;
+    margin-bottom: -2px
+}
+
+.pull-down-menu{
+    background-color: #F2F2F2;
+    text-decoration: none;
+}
+
+.pull-down-menu a {
+    display:block;
+    font-size: 18px;
+    color: #262626;
+    text-decoration:none;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left: 15px
+}
+
+.pull-down-menu a:hover {
+    color:rgb(0, 0, 0)
+}
+
+.pull-down-menu .nopoint{
+    list-style-type:none
+}
+
+.pullsearchdiv{
+  background-color: #F2F2F2
+}
+
+.pullsearch{
+  margin-left: 15px;
+  margin-right: 15px
+}
+
+.stereoscopic-line{
+  background-color: rgb(230,230,230);
+  height: 2px
+}
+
+.psearch{
+  text-align: right
+}
+
+footer{
+  width: 100%;
+  background-color: #F2F2F2
+}
+.back-top {
+  text-align: center;
+  font-size: larger
+}
+
+.back-top a{
+  text-decoration: none;
+  color: #444
+}
+
+.back-top span{
+  font-size: small
+}
+
+.language{
+  font-size: larger;
+  margin-left: 3%
+}
+
+.language .btn{
+  text-decoration: none
+}
+
+.fill{
+  height: 20px;
+}
